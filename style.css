@@ -1,0 +1,99 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+        body{
+          background-color:rgb(230, 143, 156);
+          font-family: Arial, Helvetica, sans-serif;
+        }
+          .container {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+  
+          }
+  
+          .btn-yes {
+              margin-left: -50px;
+              margin-right: 50px;
+              padding: 10px;
+              border-radius: 10px;
+              background-color: rgb(43, 226, 226);
+              border: none;
+              width: 60px;
+          }
+  
+          .btn-no {
+              padding: 10px;
+              border-radius: 10px;
+              background-color: rgb(39, 223, 223);
+              border: none;
+              width: 60px;
+              position: absolute;
+          }
+  
+          .button {
+              margin-top: 50px;
+          }
+  
+          .btn-yes:hover {
+              box-shadow: 0 0 5px #45f3ff,
+                  0 0 25px #45f3ff,
+                  0 0 50px #45f3ff,
+                  0 0 100px #45f3ff
+          }
+  
+          .btn-no:hover {
+              box-shadow: 0 0 5px #45f3ff,
+                  0 0 25px #45f3ff,
+                  0 0 50px #45f3ff,
+                  0 0 100px #45f3ff
+          }
+  
+          .container img {
+              width: 150px;
+              border-radius: 8px;
+          }
+
+          h1{
+              color: aqua;
+          }
+
+          p{
+              text-align: center;
+          }
